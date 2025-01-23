@@ -1,4 +1,11 @@
 
+
+
+Conversión de Temperaturas
+
+Este programa permite convertir una temperatura ingresada en grados Celsius a sus equivalentes en grados Fahrenheit y Kelvin. La aplicación valida que los datos ingresados sean números antes de realizar las conversiones, garantizando una experiencia fluida y sin errores.
+
+
 Algoritmo
 
 1. Solicitar al usuario la temperatura en grados Celsius.
@@ -29,3 +36,29 @@ Inicio
         - En el DOM: Mostrar "Grados Fahrenheit: " + Fahrenheit en el HTML
         - En el DOM: Mostrar "Grados Kelvin: " + Kelvin en el HTML
 Fin
+
+Instrucciones de Uso
+Clona este repositorio en tu computadora:
+:  git clone https://github.com/diegoberriogen/PracticaConversiondeTemperaturas.git
+
+Abre el archivo index.html en tu navegador.
+
+Ingresa una temperatura en grados Celsius en el campo de texto.
+
+Haz clic en el botón "Convertir".
+
+Observa los resultados en grados Fahrenheit y Kelvin que se mostrarán en la sección "Resultados".
+
+Si ingresas un valor no válido, el programa mostrará un mensaje de error y te permitirá intentarlo nuevamente.
+
+
+
+Mejoras Futuras
+
+Agregar soporte para otras unidades de temperatura, como Rankine.
+Implementar una gráfica que muestre la comparación visual de las temperaturas.
+Guardar histórico de conversiones realizadas.
+Optimizar el diseño para una mejor accesibilidad.
+
+Autor:
+Desarrollado por Diego Berrio.
