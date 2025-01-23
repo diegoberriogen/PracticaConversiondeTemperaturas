@@ -1,0 +1,31 @@
+
+Algoritmo
+
+1. Solicitar al usuario la temperatura en grados Celsius.
+2. Convertir la temperatura ingresada a grados Fahrenheit y Kelvin.
+3. Verificar si el dato ingresado es un número. Si no es un número, mostrar un mensaje de error y solicitar la entrada nuevamente.
+4. Imprimir el resultado de la conversión en grados Fahrenheit y Kelvin:
+5. Mostrar el valor en consola.
+6. Mostrar el valor en el DOM (en la página web).
+7. Terminar el programa.
+
+pseudocódigo
+
+Inicio
+    Repetir
+        Solicitar al usuario la temperatura en grados Celsius
+        Convertir la entrada a un número
+        Si la entrada no es un número
+            Mostrar mensaje de error "Por favor, ingrese un número válido"
+        Fin Si
+    Hasta que la entrada sea válida (número)
+    
+    Calcular grados Fahrenheit: (Celsius * 9/5) + 32
+    Calcular grados Kelvin: Celsius + 273.15
+    
+    Mostrar los resultados:
+        - En consola: "Grados Fahrenheit: " + Fahrenheit
+        - En consola: "Grados Kelvin: " + Kelvin
+        - En el DOM: Mostrar "Grados Fahrenheit: " + Fahrenheit en el HTML
+        - En el DOM: Mostrar "Grados Kelvin: " + Kelvin en el HTML
+Fin
